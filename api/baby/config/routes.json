@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/babies",
+      "handler": "Baby.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/babies/count",
+      "handler": "Baby.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/babies/:id",
+      "handler": "Baby.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/babies",
+      "handler": "Baby.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/babies/:id",
+      "handler": "Baby.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/babies/:id",
+      "handler": "Baby.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

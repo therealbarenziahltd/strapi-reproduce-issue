@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mommies",
+      "handler": "Mommy.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mommies/count",
+      "handler": "Mommy.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mommies/:id",
+      "handler": "Mommy.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mommies",
+      "handler": "Mommy.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mommies/:id",
+      "handler": "Mommy.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mommies/:id",
+      "handler": "Mommy.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

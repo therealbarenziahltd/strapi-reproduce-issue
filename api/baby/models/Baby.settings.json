@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "babies",
+  "info": {
+    "name": "baby",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "mommy": {
+      "model": "mommy"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}
